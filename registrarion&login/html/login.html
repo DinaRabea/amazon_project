@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Amazon Logo -->
+        <div class="row">
+            <div class="col-12">
+                <div class="logo text-center">
+                    <img src="../../images/balcklogo-removebg-preview.png" height="31px" width="103px" class="img-fluid mt-3" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- Login Body -->
+    <Section id="rgisterPage" class="min-vh-60 d-flex justify-content-center align-items-cente mt-0r">
+        <div class="loginForm w-40 rounded-3">
+            <h1 class="mt-5 ms-5 text-dark fs-4 fw-bold">Sign In</h1>
+            <div class="loginInputs py-3 mx-5 ">
+                <label for="userName"  class="fw-bold">Enter Your Email</label>
+                <input id="loginEmail" type="text" class="form-control  bg-transparent text-dark shadow-none mb-2">
+                <label for="userName" class="fw-bold">Eter Your Password</label>
+                <input id="loginPassword" type="password" class="form-control  bg-transparent text-dark shadow-none mb-2">
+
+                <label id="incorrectLabel" class=" d-none text-danger">incorrect email or password</label>
+                <label id="loginRequiredLabel" class="text-danger d-none">All inputs is required</label>
+
+                <button id="loginBtn" class="form-control btn  mt-3 fs-6 mb-3 w-100">Continue</button>
+                    
+               <p>By creating an account, you agree to Amazon's</p>
+               <p class="text-center"><a href="#">Conditions of Use</a> <span>and</span> <a href="#">Privacy Notice.</a></p>
+                <p class="  pb-2" >
+                    <i class="bi bi-caret-right-fill text-secondary"></i>
+                    <a id="signUpLink" class=" text-decoration-none" href="login.html">Need's Help?</a>
+                </p>
+            </div>
+        </div>
+     </Section>
+     <!-- Sign Up Button -->
+     <section class="section2 text-center">
+        <div class="a-divider a-divider-break"><h5 class="header" aria-level="5">New to Amazon?</h5></div>
+        <button  id="loginBtn1"  class=" form-control btn  fs-6">Create your Amazone Account</button>
+     </section>
+     <!-- footer -->
+     <section class="text-center mySection">
+        <hr class="footer">
+        <a class="me-3 ms-3 fw-lighter" href="#"> Conditions of Use </a>
+        <a class="me-3 fw-lighter"  href="#"> Privacy Notice  </a>
+        <a class="me-3 fw-lighter"  href="#">  Help  </a>
+        <p class="fw-lighter">© 1996-2023, Amazon.com, Inc. or its affiliates</p>
+     </section>
+   
+    </div>
+ 
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/login.js"></script>
+    <script src="../js/log.js"></script>
+</body>
+</html>

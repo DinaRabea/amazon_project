@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(204, 204, 204, 0.596);
+}
+.nav{
+    background-color: #0f1111;
+    font-family: 14px'Amazon Ember', Arial, Helvetica, sans-serif;
+
+}
+.logo{
+    width: 132.55px;
+    height: 50px;
+}
+
+.searchInput{
+    width: 550px;
+    height: 38px;
+}
+.myImg{
+    height: 100%;
+    left: -9999;
+    max-width: none;
+    z-index: 0;
+    right: -9999;
+}
+.a-icon.a-star-small-4-5 {
+    background-position: -2px -42px;
+}
+.a-icon.a-icon-star-small {
+        background-image: url(https://m.media-amazon.com/images/S/sash/ouR9NRElwmzAIev.png);
+        -webkit-background-size: 512px 512px;
+        background-size: 705px 537px;
+        background-repeat: no-repeat;
+}
+.a-align-top, .aok-align-top {
+    vertical-align: top!important;
+}
+.a-icon-star-small {
+    height: 18px;
+    width: 80px;
+}
+ .a-icon-star-small {
+    position: relative;
+    vertical-align: text-top;
+}
+.nav_a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.hash{
+    text-decoration: none;
+    border: 1px solid white;
+    
+}

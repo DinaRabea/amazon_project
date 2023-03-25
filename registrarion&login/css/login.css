@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fw-bolder{
+    color: white;
+}
+.text{
+    color: tomato;
+}
+.loginForm{
+   border: 1px solid #ccc;
+}
+#loginEmail[placeholder],#loginPassword[placeholder]{
+    font-size: 12px;
+    width: 100%;
+}
+#loginEmail,#loginPassword{
+    border: 1px solid black;
+    
+}
+#loginEmail:focus,#loginPassword:focus{
+    border: 2px solid rgb(233, 205, 153);
+}
+#loginBtn{
+    border: none;
+    background: #f0c14b;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+    border: 1px solid #111;
+}
+
+#loginBtn:hover{
+    background-color: white;
+    border: none;
+    color: black;
+}
+#loginBtn1{
+    width: 30%;
+    border: none;
+    color: #111;
+    background: #e7e9ec;
+    border-radius: 3px;
+    border-color: #adb1b8 #a2a6ac #8d9096;
+}
+
+#loginBtn1:hover{
+    background: #d2d4d6;
+    border-radius: 3px solid;
+    border-color: #898c91 #151516 #8d9096;
+}
+.mySection a{
+    text-decoration: none;
+}
+.mySection a{
+    font-size: 12px;
+}
+
+.mySection p{
+    font-size: 12px;
+}
+.footer{
+    box-shadow: 1px 3px 1px #fff;
+}
+
+.a-divider.a-divider-break, .a-divider.a-divider-break, .a-divider.a-divider-break {
+    text-align: center;
+    position: relative;
+    top: 2px;
+    padding-top: 1px;
+    margin-bottom: 14px;
+    line-height: 0;
+    
+}
+.a-divider.a-divider-break h5 {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+div {
+    display: block;
+}
+.a-ember body {
+    font-family: "Amazon Ember",Arial,sans-serif;
+}
+body {
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    font-family: Arial,sans-serif;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+ .a-divider.a-divider-break:after, .a-color-base-background .a-divider.a-divider-break:after, .a-divider.a-divider-break:after {
+    content: "";
+    width: 100%;
+    background-color:transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 64%;
+    margin-top: -1px;
+    z-index: 0;
+}
